@@ -9,6 +9,7 @@ class D{
 	public:
 		void MD1();
 		void MD2();
+		void MD4();
 };
 void D::MD1(){
 	cout<<":)"<<endl;
@@ -16,9 +17,13 @@ void D::MD1(){
 void D::MD2(){
 	cout<<":)"<<endl;
 }
+void D::MD4(){
+	cout<<"MD4)"<<endl;
+}
 int main(){
 	D d1;
 	d1.MD1();
 	d1.MD2();
+	d1.MD4();
 	return 0;
 }
